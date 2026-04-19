@@ -34,16 +34,16 @@ playstyles = st.sidebar.multiselect(
     default=df['playstyle'].unique()
 )
 
-# --- FILTERING LOGIC ---
+
 filtered = df[
     df['position'].isin(positions) &
     df['playstyle'].isin(playstyles)
 ].copy() # Using .copy() prevents warnings when we clean the data below
 
-# --- THE FIX: Clean the 'size' column for Plotly ---
+
 filtered = filtered.dropna(subset=['market_value_in_eur'])
 
-# --- VISUALIZATION ---
+
 if not filtered.empty:
     fig = px.scatter(
         filtered,

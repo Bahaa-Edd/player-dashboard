@@ -14,9 +14,9 @@ football players using Transfermarkt data.
 - Deploys as a live Streamlit web app
 
 ## Key findings
-- K-Means with K=5 identified distinct archetypes:
-  Goal scorers, Playmakers, Box-to-box midfielders,
-  Defensive anchors, and Goalkeepers
+- K-Means with K=4 identified distinct archetypes:
+  Forwards, midfielders,
+  Defenders, and Goalkeepers
 - Goals per 90 varies 4x between Goal scorers (0.52)
   and Defensive anchors (0.04)
 - Market value correlates strongly with minutes ratio

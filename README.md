@@ -9,7 +9,7 @@ football players using Transfermarkt data.
 ## What this project does
 - Loads and cleans Transfermarkt player + appearance data
 - Engineers per-90 minute performance features
-- Clusters players into 5 playstyle groups using K-Means
+- Clusters players into 4 playstyle groups using K-Means
 - Visualises results with interactive Plotly charts
 - Deploys as a live Streamlit web app
 

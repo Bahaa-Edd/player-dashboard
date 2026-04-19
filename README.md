@@ -4,7 +4,7 @@ Exploratory analysis and playstyle clustering of 28,000+
 football players using Transfermarkt data.
 
 ## Live demo
-[Open dashboard on Streamlit](YOUR_STREAMLIT_URL_HERE)
+[Open dashboard on Streamlit](https://player-dashboard-vwzmlfztpi4ixvulgzawv9.streamlit.app/)
 
 ## What this project does
 - Loads and cleans Transfermarkt player + appearance data
@@ -32,7 +32,7 @@ football players using Transfermarkt data.
 
 ## How to run locally
 1. Clone the repo
-   git clone https://github.com/YOUR_USERNAME/player-dashboard
+   git clone https://github.com/Bahaa-Edd/player-dashboard
 
 2. Create and activate a virtual environment
    python -m venv venv

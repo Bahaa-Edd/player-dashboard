@@ -38,7 +38,7 @@ playstyles = st.sidebar.multiselect(
 filtered = df[
     df['position'].isin(positions) &
     df['playstyle'].isin(playstyles)
-].copy() # Using .copy() prevents warnings when we clean the data below
+].copy() 
 
 
 filtered = filtered.dropna(subset=['market_value_in_eur'])
@@ -53,7 +53,7 @@ if not filtered.empty:
         hover_name='name',
         title='Goals vs Assists per 90 mins',
         opacity=0.7,
-        template='plotly_dark' # Optional: looks great with sports dashboards
+        template='plotly_dark' 
     )
     st.plotly_chart(fig, use_container_width=True)
 else:

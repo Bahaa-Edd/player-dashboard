@@ -1,4 +1,5 @@
-data/
+data/*
+!data/players_clustered.csv
 venv/
 __pycache__/
 *.pyc
